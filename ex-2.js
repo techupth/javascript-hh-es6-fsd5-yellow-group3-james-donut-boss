@@ -13,5 +13,9 @@ let studentScores = {
 };
 
 // Start coding here
+Object.assign(studentProfile.scores, {...studentScores})
 
+let newStudentProfile = {
+...studentProfile
+}
 console.log(newStudentProfile);
